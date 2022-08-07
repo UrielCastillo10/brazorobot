@@ -8,7 +8,7 @@
 #define MAX_BASE 170
 #define MIN_BASE 10
 
-Servo mBase;  // create servo object to control a servo
+Servo mBase;  // Creamos un objeto "Servo" para controlar cada servomotor.
 Servo mHombro;
 Servo mCodo;
 Servo mWrist;
