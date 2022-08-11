@@ -14,7 +14,7 @@ Servo mCodo;
 Servo mWrist;
 Servo mPinza;
 
-int posBase = 90;    //Valor actual posición servo Base giratoria.
+int posBase = 91;    //Valor actual posición servo Base giratoria.
 int posHombro = 80;  //Valor actual posición servo HOMBRO.
 int backHombro = posHombro;
 int posCodo = 30;
