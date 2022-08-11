@@ -43,9 +43,15 @@ void setup() {
 
  Serial.println("");  
  Serial.println("===================");  
- Serial.println("ROBOT   de    Rafa & Chiti & Caro & Ambarcita ");  
+ Serial.println("ROBOT   de    Rafa ");  
  Serial.println("===================");  
- Serial.println("");  
+ Serial.println("Use las sig. teclas para cada movimiento:");  
+ Serial.println("Base  : +w -q ");
+ Serial.println("Hombro: +a -s ");
+ Serial.println("Codo  : +b -c ");
+ Serial.println("Muñeca: +n -m ");
+ Serial.println("Pinza : +z -x "); 
+ Serial.println("Ayuda : h "); 
  Serial.print("Robot> ");
 
   mBase.write(posBase);              // tell servo to go to position in variable 'pos'
@@ -191,6 +197,14 @@ case 'p':
   Serial.println("Posición Inicial");
   break;
 
+case 'h':
+  Serial.println("");
+  Serial.println("Base  : +w -q ");
+  Serial.println("Hombro: +a -s ");
+  Serial.println("Codo  : +b -c ");
+  Serial.println("Muñeca: +n -m ");
+  Serial.println("Pinza : +z -x ");
+  break;
 
 default:
   Serial.print('\"');
